@@ -1,0 +1,1 @@
+This is a Streamlit app to predict the time to eruption for given segment. This work is based upon the competition on Kaggle hosted by INGV. A simple stacked ensemble model has been trained on simple desprictive features drawn from raw 10-D time series data.
