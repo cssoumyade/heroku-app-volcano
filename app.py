@@ -64,10 +64,11 @@ def main():
         col_1.text('Which is approximately {} hours {} minutes'.format(hm['hours'], hm['minutes']))
 
         if vizualize=='Yes':
-            csv_file.plot(subplots=True, layout=(5,2), figsize=(20,10), title="Sensor data for the given segment")
-            st.text("")
-            st.text("")
-            st.pyplot(plt)
+            with st.spinner(text='Please wait while we plot'):
+                csv_file.plot(subplots=True, layout=(5,2), figsize=(20,10), title="Sensor data for the given segment")
+                st.text("")
+                st.text("")
+                st.pyplot(plt)
 
 if __name__=="__main__":
     main()
