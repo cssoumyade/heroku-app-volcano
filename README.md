@@ -7,4 +7,4 @@ The file that is to be uploaded, should be similar as the segment files provided
 To know more please check : (https://www.kaggle.com/c/predict-volcanic-eruptions-ingv-oe/data)
 
 ### Link to deployed app :
-https://volcano-st-app.herokuapp.com/  
+https://heroku-app-volcano.herokuapp.com/ 
