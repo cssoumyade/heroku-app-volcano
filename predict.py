@@ -21,7 +21,7 @@ def predict_time_to_erupt(seg_df):
         each_row.append(seg_df[each_column].kurt())
     
     features = np.array(each_row).reshape(1,-1)
-    
+    feature = np.nan_to_num(features)
     with open('custEnsemblexgb.pkl', 'rb') as f:
         best_estimator = pickle.load(f)
         
@@ -48,7 +48,7 @@ def return_mae(seg_df, y):
         each_row.append(seg_df[each_column].kurt())
     
     features = np.array(each_row).reshape(1,-1)
-    
+    feature = np.nan_to_num(features)
     with open('custEnsemblexgb.pkl', 'rb') as f:
         best_estimator = pickle.load(f)
         
