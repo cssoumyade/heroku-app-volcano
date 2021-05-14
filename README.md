@@ -10,7 +10,7 @@ To know more please check : (https://www.kaggle.com/c/predict-volcanic-eruptions
 * all the files expect the files in dev directory constitute the deployed app
 * dev directory contains two things:
   * a ipynb file - containing the methodology and code for the model development
-  * zip folder - containing sample test files that can be used to inpect the deployed app
+  * zip folder - containing sample test files that can be used to inspect the deployed app
  
 ### Link to deployed app :
 https://heroku-app-volcano.herokuapp.com/ 
